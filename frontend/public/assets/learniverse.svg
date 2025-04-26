@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 50">
+  <!-- Main text -->
+  <text x="50" y="35" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#3366CC">LEARNIVERSE</text>
+  
+  <!-- Brain icon representing learning -->
+  <circle cx="25" cy="25" r="20" fill="#F5F5F5" stroke="#3366CC" stroke-width="2"/>
+  
+  <!-- Connected nodes representing network of knowledge -->
+  <circle cx="18" cy="20" r="3" fill="#3366CC"/>
+  <circle cx="32" cy="18" r="3" fill="#3366CC"/>
+  <circle cx="16" cy="30" r="3" fill="#3366CC"/>
+  <circle cx="34" cy="28" r="3" fill="#3366CC"/>
+  <circle cx="25" cy="25" r="3" fill="#3366CC"/>
+  
+  <!-- Connections between nodes -->
+  <line x1="18" y1="20" x2="25" y2="25" stroke="#3366CC" stroke-width="1.5"/>
+  <line x1="32" y1="18" x2="25" y2="25" stroke="#3366CC" stroke-width="1.5"/>
+  <line x1="16" y1="30" x2="25" y2="25" stroke="#3366CC" stroke-width="1.5"/>
+  <line x1="34" y1="28" x2="25" y2="25" stroke="#3366CC" stroke-width="1.5"/>
+  
+  <!-- Small star -->
+
+</svg>
