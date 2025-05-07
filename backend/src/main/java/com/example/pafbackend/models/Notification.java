@@ -6,20 +6,13 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
-@Document(collection = "workoutStatusUpdates")
+@Document(collection = "notifications")
 @Getter
 @Setter
-public class StoryStatusUpdate {
+public class Notification {
     @Id
     private String id;
     private String userId;
-    private Date timestamp;
-    private String title;
-    private String image;
+    private String message;
     private String description;
-    private String exerciseType;
-    private int timeDuration;
-    private String intensity;
-
-
 }
