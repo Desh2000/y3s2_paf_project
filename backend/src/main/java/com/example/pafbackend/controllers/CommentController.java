@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.example.pafbackend.models.Comment;
-import com.example.pafbackend.models.User;
+
 import com.example.pafbackend.repositories.CommentRepository;
-import com.example.pafbackend.repositories.UserRepository;
+
 
 import java.util.List;
 import java.util.Optional;
@@ -20,8 +20,7 @@ public class CommentController {
     @Autowired
     private CommentRepository commentRepository;
 
-    @Autowired
-    private UserRepository userRepository;
+
 
     // POST: Create a new Comment
     @PostMapping
